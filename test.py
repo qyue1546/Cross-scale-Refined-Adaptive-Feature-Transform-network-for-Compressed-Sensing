@@ -26,7 +26,7 @@ def main():
     model_dir = os.path.join(
         args.save_dir, "CSratio_{:.2f}".format(args.sensing_rate)
     )
-    checkpoint = torch.load("%s/Enet_params_%d.pth" % (model_dir, args.epochs), map_location=device)
+    checkpoint = torch.load("%s/net_params_%d.pth" % (model_dir, args.epochs), map_location=device)
     model.load_state_dict(checkpoint['net'])
 
     ext = {'/*.jpg', '/*.png', '/*.tif'}
