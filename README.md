@@ -1,4 +1,4 @@
-# Cross-scale-Refined-Adaptive-Feature-Transform-network-for-Compressed-Sensing
+# Cross-scale-Refined-Adaptive-Feature-Transform-network-for-compressed-sensing
 
 #Users can download the pre-processed training set from https://drive.google.com/file/d/1F_UpIoOU_kvY_64XihBk6BP_WzwHWOOp/view?usp=drive_link. Training sets and test sets need to be placed under ./DataSets/.
 
