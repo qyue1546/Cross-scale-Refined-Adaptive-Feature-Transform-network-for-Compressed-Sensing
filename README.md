@@ -7,9 +7,9 @@
 
     python test.py  --sensing-rate 0.1 --test_name Set11 --epochs 100
 
-2. You can change the sensing-rate and test_name to to get test results for different CS ratios in different datasets. 
+2. You can change the sensing-rate (CS ratio) and test_name (dataset) to get test results for different CS ratios in different datasets. 
 
-3. If you want to run multiple different models trained at a CS ratio of 0.4, please place the Xnet_params_100.pth file in the \save_temp\CSratio_0.40 folder, remove the first letter from the filename, and then test. Otherwise, it will cause a path reading error.
+3. The `Xnet_params_100.pth` file consists of seven sets of weights obtained by repeatedly running experiments on the same model, with the CS ratio fixed at 0.4 but the random seed left unfixed. If you want to run multiple different models trained at a CS ratio of 0.4, please place the Xnet_params_100.pth file in the \save_temp\CSratio_0.40 folder, remove the first letter from the filename, and then test. 
 
 ## Train
 1. Run the following scripts to train model.
