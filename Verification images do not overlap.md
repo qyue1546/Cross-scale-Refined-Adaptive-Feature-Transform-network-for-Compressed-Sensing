@@ -1,4 +1,4 @@
-1. References associated with the dataset and literature regarding dataset partitioning
+## 1.References associated with the dataset and literature regarding dataset partitioning
 
 > Martin, D., Fowlkes, C., Tal, D., and Malik, J. “A Database of Human Segmented Natural Images and its Application to Evaluating Segmentation Algorithms and Measuring Ecological Statistics.” *Proceedings of the Eighth IEEE International Conference on Computer Vision (ICCV)*, vol. 2, pp. 416–423, 2001. DOI: 10.1109/ICCV.2001.937655.
 
@@ -33,7 +33,7 @@ BibTeX：
 }
 ```
 
-2. ## The 100 images in the BSDS500 validation set
+## 2.The 100 images in the BSDS500 validation set
 
 ```text
 101085.jpg
@@ -138,7 +138,7 @@ BibTeX：
 97033.jpg
 ```
 
-## 68 images from CBSD68
+## 3. 68 images from CBSD68
 ```text
 101085.jpg
 101087.jpg
@@ -210,7 +210,7 @@ BibTeX：
 351093.jpg
 ```
 
-## The 68 filenames listed above correspond one-to-one with the files in this directory and the BSDS500 `val` directory. Comparing by primary filename, all 68 images in CBSD68 are found within the `val` directory of BSDS500; the remaining 32 images in the BSDS500 `val` directory are not part of CBSD68:
+## The 68 filenames listed above correspond one-to-one with the files in the BSDS500 `val` directory. Comparing by primary filename, all 68 images in CBSD68 are found within the `val` directory of BSDS500; the remaining 32 images in the BSDS500 `val` directory are not part of CBSD68:
 
 ```text
 156065.jpg, 361010.jpg, 37073.jpg, 376043.jpg, 38082.jpg, 38092.jpg,
@@ -220,4 +220,4 @@ BibTeX：
 85048.jpg, 86000.jpg, 86016.jpg, 86068.jpg, 87046.jpg, 89072.jpg,
 97033.jpg
 ```
-## The CBSD68 dataset has absolutely no overlap with the test and validation sets in BSD500.
+## The BSDS500 dataset is partitioned into test, training, and validation sets, which are mutually exclusive. A comparison of the original filenames reveals that all 68 images in the CBSD68 dataset are contained within the validation set of the BSDS500 dataset. In other words, there is no overlap between the images in the CBSD68 dataset and those in the test or training sets of the BSDS500 dataset. Consequently, it is unnecessary to explicitly list the test and training sets as well.
