@@ -15,3 +15,5 @@
 1. Run the following scripts to train model.
 
     python train.py --sensing_rate 0.4 --layer_num 16 --learning_rate 2e-4 --start_epoch 0 --epochs 100 --batch_size 32
+
+2. Lines 20–24 in the `train.py` file provide an optional fixed random seed; you may choose to keep or remove them as needed.
