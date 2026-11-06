@@ -5,7 +5,7 @@
 # Test
 1. Place the weight file (CSratio_0.X0) in \save_temp. Run the following scripts to test model.
 
-    python test.py  --sensing-rate 0.1 --test_name Set11 --epoch 100
+    python test.py  --sensing-rate 0.1 --test_name Set11 --epochs 100
 
 2. You can change the sensing-rate and test_name to to get test results for different CS ratios in different datasets. 
 
