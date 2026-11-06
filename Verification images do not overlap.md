@@ -218,6 +218,5 @@ BibTeX：
 54082.jpg, 55073.jpg, 58060.jpg, 62096.jpg, 65033.jpg, 66053.jpg,
 69015.jpg, 69020.jpg, 69040.jpg, 76053.jpg, 78004.jpg, 8023.jpg,
 85048.jpg, 86000.jpg, 86016.jpg, 86068.jpg, 87046.jpg, 89072.jpg,
-97033.jpg
+97033.jpg, 45096.jpg
 ```
-## The BSDS500 dataset is partitioned into test, training, and validation sets, which are mutually exclusive. A comparison of the original filenames reveals that all 68 images in the CBSD68 dataset are contained within the validation set of the BSDS500 dataset. In other words, there is no overlap between the images in the CBSD68 dataset and those in the test or training sets of the BSDS500 dataset. Consequently, it is unnecessary to explicitly list the test and training sets as well.
